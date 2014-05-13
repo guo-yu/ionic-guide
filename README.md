@@ -51,7 +51,33 @@ $ ionic platform add ios
 $ ionic build ios
 $ ionic emulate ios
 ```
-稍等片刻，你应该能看到模拟器已经启动了。
+稍等片刻，你应该能看到模拟器已经启动了。是不是非常简单？如果你觉得已经掌握了基本的操作，现在就可以开始研究范例应用代码，或者移步下一章节的文档了。
+
+### ionic 组件文档
+
+说到底，ionic 是一个 web 前端框架，也就是说，它由负责表现的样式模块，与负责交互的脚本文件组成，这些模块和文件共同协作完成功能，实现表现，再通过 Cordova 的封装，效果几乎与原生应用无异了。
+
+#### 文档概览
+
+欢迎，你读到了这里，看起来是要真心把这块骨头啃下去。我们知道 ionic 是一个前端框架，专注于表现层面，这以为这 ionic 所做的工作并不类似于 phonegap，而正好与之相反，ionic 的任务是专注于实现几乎和原生应用一样的 UI 甚至运行效率，而在这个层面与 Cordova 合作的天衣无缝。如果你还不确定是否理解 ionic 的定位，请先读一下这篇[文章](http://ionicframework.com/blog/where-does-the-ionic-framework-fit-in/)
+
+ionic 目前依赖与 Angular.js，众所周知，这是一个 MVVM 框架，提供了数据与视图的动态双向绑定，用来构建可维护与复杂的 Web app。当然，在这之外，你也可以自由的选择其他的 UI 组件库或 MVC 框架，在未来，ionic 也会考虑支持其他的框架。
+
+ionic 同时也会发布相关的 Cordova/PhoneGap 插件，以方便拓展 ionic 应用的更多可能性。
+
+##### 下载 ionic
+
+请移步[官方网站下载最新的稳定版本](http://ionicframework.com/docs/overview/#download)，请注意，最新版本的文档或接口可能与本中文文档的涵义不同，请以原文为准。
+
+##### 命令行工具
+
+我们的命令行工具基于 Node.js，开发者可以方便的使用命令行工具新建种子项目。当然，也可以选择直接 clone 种子[项目源码](https://github.com/driftyco/ionic-app-base)以新建项目。
+
+种子项目默认包含相应的 CSS 与 Javascript 代码，也可选 Sass 源码、JS 框架相应插件，或者开源的免费 ionic icons.
+
+#### CSS 模块
+#### Javascript 接口文档
+#### 概览
 
 ### 资源索引
 
