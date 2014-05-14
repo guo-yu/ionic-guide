@@ -1,8 +1,6 @@
 ## ionic guide ![npm](https://badge.fury.io/js/ionic.png)
 
----
 ionic 是使用 HTML5 及其他 Web 技术构建 hybrid app 的 Web 前端框架，旨在提升运行效率的同时依然能使用 Sass 与 Angular.js 构建优雅可维护的 hybrid App.
---- 
 
 ### 快速开始
 
@@ -10,12 +8,12 @@ ionic 是使用 HTML5 及其他 Web 技术构建 hybrid app 的 Web 前端框架
 
 #### 安装 ionic
 
-首先，确保你安装了 [Node.js](http://nodejs.org/)，然后，我们需要安装最新版的 Cordova 与 ionic 命令行工具。安装方法非常简单：
+首先，确保安装 [Node.js](http://nodejs.org/)，然后，我们需要安装最新版的 Cordova 与 ionic 命令行工具。安装方法很简单：
 
 ```
 $ npm install -g cordova ionic
 ```
-*提示：* [Andorid](http://cordova.apache.org/docs/en/3.3.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide) 与 [iOS](http://cordova.apache.org/docs/en/3.3.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide) 平台各自有相应的依赖需要安装，请先查询上方的网址进行查询。
+*提示：* [Andorid](http://cordova.apache.org/docs/en/3.3.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide) 与 [iOS](http://cordova.apache.org/docs/en/3.3.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide) 平台各自有相应的依赖需要安装，请先查询左边的网址进行查询。
 
 #### 创建 ionic 应用
 
@@ -37,7 +35,7 @@ $ ionic start myApp sidemenu
 边栏应用效果如图：
 
 ![menu app](http://ionicframework.com/img/getting-started/menu-app.png)
-```
+
 或者，创建一个白板应用：
 ```
 $ ionic start myApp blank
